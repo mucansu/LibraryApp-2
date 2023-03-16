@@ -1,36 +1,16 @@
 package org.example.Premium;
 
-public class Standart {
-    private double rewardPointPercentage = 1;
-    private double penaltyPointPercentage = 1;
-    private boolean isActive = true;
-
+public class Standart extends Membership{
     public Standart() {
     }
 
-    public double getRewardPointPercentage() {
-        return rewardPointPercentage;
-    }
-
+    @Override
     public void setRewardPointPercentage(double rewardPointPercentage) {
-        this.rewardPointPercentage = rewardPointPercentage;
+        super.setRewardPointPercentage(rewardPointPercentage);
     }
 
-    public double getPenaltyPointPercentage() {
-        return penaltyPointPercentage;
-    }
-
+    @Override
     public void setPenaltyPointPercentage(double penaltyPointPercentage) {
-        this.penaltyPointPercentage = penaltyPointPercentage;
-    }
-
-    public boolean isActive() {
-        return isActive;
-    }
-
-    public void setActive(boolean active) {
-        isActive = active;
+        super.setPenaltyPointPercentage(penaltyPointPercentage);
     }
 }
-
-

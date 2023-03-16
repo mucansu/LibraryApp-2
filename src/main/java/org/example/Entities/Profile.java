@@ -10,6 +10,14 @@ public class Profile {
     public Profile() {
     }
 
+    public Profile(long id, String firstName, String lastName, String email, String password) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.password = password;
+    }
+
     public long getId() {
         return id;
     }
