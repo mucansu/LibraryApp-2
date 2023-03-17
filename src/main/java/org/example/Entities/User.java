@@ -11,11 +11,8 @@ public class User extends Profile{
     public User() {
     }
 
-    public User(long id, String firstName, String lastName, String email, String password, double penaltyPoint, double rewardPoint, boolean isActive, Membership membership) {
+    public User(long id, String firstName, String lastName, String email, String password, Membership membership) {
         super(id, firstName, lastName, email, password);
-        this.penaltyPoint = penaltyPoint;
-        this.rewardPoint = rewardPoint;
-        this.isActive = isActive;
         this.membership = membership;
     }
 
