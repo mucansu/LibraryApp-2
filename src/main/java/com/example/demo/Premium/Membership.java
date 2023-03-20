@@ -1,10 +1,13 @@
-package org.example.Premium;
+package com.example.demo.Premium;
+
+import java.util.ArrayList;
 
 public class Membership {
     private double rewardPointPercentage = 1;
     private double penaltyPointPercentage = 1;
     private boolean isActive = true;
     public String message;
+    private ArrayList<Membership> memberships;
 
 
     public Membership() {
@@ -38,6 +41,14 @@ public class Membership {
 
     public void setActive(boolean active) {
         isActive = active;
+    }
+
+    public ArrayList<Membership> getMemberships() {
+        return memberships;
+    }
+
+    public void setMemberships(ArrayList<Membership> memberships) {
+        this.memberships = memberships;
     }
 }
 

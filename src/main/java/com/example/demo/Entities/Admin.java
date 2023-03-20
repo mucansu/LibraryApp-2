@@ -1,4 +1,4 @@
-package org.example.Entities;
+package com.example.demo.Entities;
 
 public class Admin extends Profile{
     public Admin() {

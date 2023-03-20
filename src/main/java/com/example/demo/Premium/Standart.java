@@ -1,4 +1,4 @@
-package org.example.Premium;
+package com.example.demo.Premium;
 
 public class Standart extends Membership{
     public Standart() {

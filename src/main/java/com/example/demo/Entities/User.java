@@ -1,6 +1,7 @@
-package org.example.Entities;
+package com.example.demo.Entities;
 
-import org.example.Premium.Membership;
+
+import com.example.demo.Premium.Membership;
 
 public class User extends Profile{
     private double penaltyPoint = 0;

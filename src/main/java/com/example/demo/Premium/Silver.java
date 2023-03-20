@@ -1,4 +1,4 @@
-package org.example.Premium;
+package com.example.demo.Premium;
 
 public class Silver extends Membership {
     private double SilverRewardPercentage = 1.5;
