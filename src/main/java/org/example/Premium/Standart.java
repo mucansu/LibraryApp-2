@@ -2,6 +2,8 @@ package org.example.Premium;
 
 public class Standart extends Membership{
     public Standart() {
+        message = "Standart";
+        log();
     }
     @Override
     public void setRewardPointPercentage(double rewardPointPercentage) {

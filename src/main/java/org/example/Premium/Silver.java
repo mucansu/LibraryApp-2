@@ -4,6 +4,8 @@ public class Silver extends Membership {
     private double SilverRewardPercentage = 1.5;
     private double SilverPenaltyPercentage = 0.75;
     public Silver() {
+        message = "Silver";
+        log();
     }
 
     @Override
