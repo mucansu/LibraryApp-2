@@ -1,9 +1,11 @@
-package org.example.Premium;
+package com.example.demo.Premium;
 
 public class Gold extends Membership {
     private double GoldRewardPercentage = 2;
     private double GoldPenaltyPercentage = 0.5;
     public Gold() {
+        message = "Gold";
+        log();
     }
     @Override
     public void setRewardPointPercentage(double rewardPointPercentage) {
