@@ -13,6 +13,9 @@ target/
 *.iml
 *.ipr
 
+### Application.Properties ###
+.**/src/main/resource/application.properties
+
 ### Eclipse ###
 .apt_generated
 .classpath
